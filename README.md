@@ -12,24 +12,23 @@ C++ math tool for my game project.
 math/index.hをインクルードしてください。
 
 ■その他情報
-個別ファイルの機能は以下
+index.h以外の個別ファイルの機能は以下
 
 // 行列、ベクトル、クオータニオン、オイラー角
 // 値を保持することに徹しており、特に難しい計算を直接扱うことはない。
-#include "vectortemplate.h"
-#include "matrixtemplate.h"
-#include "euleranglestemplate.h"
-#include "quaterniontemplate.h"
-
+vectortemplate.h
+matrixtemplate.h
+euleranglestemplate.h
+quaterniontemplate.h
 
 // sqrtやsin,conなど
-#include "math.h"
+math.h
 
 // 行列の四則演算 式テンプレート
-#include "expressionoperators.h"
-#include "expressiontemplate.h"
+expressionoperators.h
+expressiontemplate.h
 
 // 内積とかのような四則演算のその上
-#include "linearalgebras.h"
+linearalgebras.h
 
 
