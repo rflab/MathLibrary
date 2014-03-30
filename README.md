@@ -17,12 +17,19 @@ C++ math tool for my game project.
 
 index.h以外の個別ファイルの機能は以下
  vectortemplate.h
+ 
  matrixtemplate.h
+
  euleranglestemplate.h
+
  quaterniontemplate.h
+
  math.h
+
  expressionoperators.h
+
  expressiontemplate.h
+
  linearalgebras.h
 
 
